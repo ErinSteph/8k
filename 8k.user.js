@@ -4,7 +4,7 @@
 // @description 8chan.
 // @include     *8chan.co*
 // @run-at      document-body
-// @version     0.36
+// @version     0.41
 // @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAABWZJREFUeNrkWl1IW2cYfpIlDTGzSZxpuwtP3G1YqIK5Uoi9NMVWYZBZWp13SjcYVLB40bXCwgKODjapd85algaEZoXaSz2gVxaWEcntknhRMWJ+5NTGZMluTrLznf+jic3cCwfCl/Odc57vfZ73fb/3HF2lUsF5MD3OiRkAQKfTneoiKbvfBqAfgBdAF3vYRE5NsEcUAA1gncqEs6e5d5VRukqlcmIgKbv/KwA3AQyd4lkiAJaoTDhy5kBYAN8B6KwjOxIAHlGZ8K8NB5Ky+/sBLNYZAN+iAMapTDiqBYhegxceA1hrMAiw+vojZfc/1DJJ0SOskF+wYj5ri7DeyZ6KWiyINXaVPpRFAVyTAqNIrSYBUaXaGvs8J0qIL5oABBfMomYgrLD70Vw2JBcABBphQ+xaE1cj3dzQXNWIQeTERbVXNPW5ar+LsSTKOeYsgCwC6Jb1CJuxZYGYfR5Ybnlh9vUI/ivGkjhcWAUTohsNZrxaAYiG35Td/5dcwmubn4RlxKt4l2Isib0bs430UILKhD8TBaLkDVtgDK0TA8RYYTOOwkYcRnenwEPFWBK73ukaBS+9fCCYuzc4exoww1QmHBHLIzcla33KIQCRD65gb3AWueAK9m/P4eDuE+J/o9tZ814xlkQxlqy3V8YE4ZdNNpKlOJ9OpVQaueAKMcaEaIE2zNc9AIByjsH+nbm6h2OxPKJpP3G0+kZ0/O9UmkxS1hYCfL29krL7h/hArspNKOfeCaimxvjzyvm6i7+LD6RL3gNbvBDcIwCjt1rQwqPg0autRodhL7FnVwJSSqVxuPCaEHz78hT278yhlEpDb7XAFhglwBVjSdX5pOPgueh4Prgi0CI/mPKB2JRulp1Zgt7aUhO+0e3EZToIJkSLesjodtYesBhLorSTxkcdDolrP4UtMCoI3yoWoutE7aCDu0+IMKu3tqB1YkBRM0a3UwBWf9ECvdUiSl0mRGPvxixKvOCh2A5Sa5YRL2yBMYGgj1a3cPTqDYrbCeLmpj4XDB0OmPpcMPs8RBQzup34NPozsjNLaJ3waaGTdPW70/alYrtRLLMfLrxGPriCco6B2efBBbezVkgex5LIziwJFsJyywtTr0vS41rrtI6D5zrVHjH1uQQg+Dct5xlcnP7i3zm9LlRyDLG6x9tJMIOzNc/y88zx9snzTFUjst0++/djgjqJv3KFjTjyPEp8zKEMANgDo7hCB1HaSeNt1zdEgjRQDnzyy2RNNxr28wSQqJJYCTH+Ju7+95txQWbn7lmq17r08gEsI17seqeJKsHodqL92T0tQLKagChlbKVx0X3N9Z4aRYkA0etStVVgjeYD+VMLkOpD8O3C507N3C7nGBx8TVbOXK1ppVZES5FoGfHC6O4U1F9iobmwESdyR9W4ybGwQWrOQDlg9nkUUXAb33p2ICsH5nBhVTB2hf4BbfOTMPs8sAXGcJkOElGomhO4D8fVmoFyEAkyO/OUmNs6OaCmCynaDvpdakZhIy7YOFU90/7sHlonBgQgmBBdWwC91YL25SnB/PblqVqU4tPJ1OtC2/ykHJAlUSDsZj4hNYsJ0dj13keBF5nECsz92z8SwI1upyDy8cf5eaq6UBLlT4L/PkVzF4XLYa4Xyrl3eL8ZRzGWOIuWkHwXRU0npQksSmXC3fwGnVj1O47mtnG5EoUb0tYB/NSkIB5JvcmSfD+SsvvX0FyN7AiVCQ/zB9W8ehvWWro0UhdKlNfLZM0sgGtNACYKmTdWqra6HDDrH4pOakDIakREM48BfHvGwn6odNK5e8/+//zyQQLQf/dbFBFANpBfB3VKeCvBHjRLofp+HXQe7J8BAPWPjtMuaEwHAAAAAElFTkSuQmCC
 // @grant       none
 // ==/UserScript==
@@ -18,7 +18,7 @@ function chanK(){
   h = document.getElementsByTagName('head')[0];
 
   namespace = "8k";
-  version = 0.36;
+  version = 0.41;
 
   $ = function(s, p){
     if(!p || p == null){
@@ -388,21 +388,24 @@ function chanK(){
         background:#F0E0D6;\
         max-width:100%;\
         color:#800000;\
+        max-width:100% !important;\
       }\
       .kqr-postbutton{\
         float:right;\
       }\
       .kqr-personafield{\
-        width:95px;\
+        width:75px;\
         background:#F0E0D6;\
         color:#800000;\
         font-size:11px !important;\
+        max-width:100% !important;\
       }\
       .kqr-handle{\
         background:#800000;\
         text-align:center;\
         color:#FFFFEE;\
         padding-bottom:2px;\
+        margin-bottom:2px;\
         font-size:10pt !important;\
       }\
       .kqr-button{\
@@ -426,7 +429,7 @@ function chanK(){
         cursor:pointer;\
       }\
       .kqr-fileinput{\
-        max-width:165px;\
+        max-width:175px;\
       }\
       .kqr-fileclear{\
       }\
@@ -465,16 +468,18 @@ function chanK(){
         float:right;\
       }\
       .kqr-personafield{\
-        width:95px;\
+        width:75px;\
         background:#D6DAF0;\
         color:black;\
         font-size:11px !important;\
+        max-width:100% !important;\
       }\
       .kqr-handle{\
         background:#98e;\
         text-align:center;\
         color:black;\
         padding-bottom:2px;\
+        margin-bottom:2px;\
         font-size:10pt !important;\
       }\
       .kqr-button{\
@@ -498,7 +503,7 @@ function chanK(){
         cursor:pointer;\
       }\
       .kqr-fileinput{\
-        max-width:165px;\
+        max-width:175px;\
       }\
       .kqr-fileclear{\
       }\
@@ -537,16 +542,18 @@ function chanK(){
         float:right;\
       }\
       .kqr-personafield{\
-        width:95px;\
+        width:75px;\
         background:#282a2e;\
         color:#c5c8c6;\
         font-size:11px !important;\
+        max-width:100% !important;\
       }\
       .kqr-handle{\
         background:#282a2e;\
         text-align:center;\
         color:#c5c8c6;\
         padding-bottom:2px;\
+        margin-bottom:2px;\
         font-size:10pt !important;\
       }\
       .kqr-button{\
@@ -570,7 +577,7 @@ function chanK(){
         cursor:pointer;\
       }\
       .kqr-fileinput{\
-        max-width:165px;\
+        max-width:175px;\
       }\
       .kqr-fileclear{\
       }\
@@ -609,16 +616,18 @@ function chanK(){
         float:right;\
       }\
       .kqr-personafield{\
-        width:95px;\
+        width:75px;\
         background:#dddddd;\
         color:#333333;\
         font-size:11px !important;\
+        max-width:100% !important;\
       }\
       .kqr-handle{\
         background:#eeeeee;\
         text-align:center;\
         color:#333333;\
         padding-bottom:2px;\
+        margin-bottom:2px;\
         font-size:10pt !important;\
       }\
       .kqr-button{\
@@ -642,7 +651,7 @@ function chanK(){
         cursor:pointer;\
       }\
       .kqr-fileinput{\
-        max-width:165px;\
+        max-width:175px;\
       }\
       .kqr-fileclear{\
       }\
@@ -681,7 +690,7 @@ function chanK(){
         float:right;\
       }\
       .kqr-personafield{\
-        width:100px !important;\
+        width:75px;\
         max-width:100% !important;\
         background:#282a2e;\
         color:#c5c8c6;\
@@ -693,6 +702,7 @@ function chanK(){
         text-align:center;\
         color:#c5c8c6;\
         padding-bottom:2px;\
+        margin-bottom:4px;\
         font-size:10pt !important;\
       }\
       .kqr-button{\
@@ -716,7 +726,7 @@ function chanK(){
         cursor:pointer;\
       }\
       .kqr-fileinput{\
-        max-width:165px;\
+        max-width:175px;\
       }\
       .kqr-fileclear{\
       }\
@@ -768,13 +778,15 @@ function chanK(){
       <div id="kqr-handle" class="kqr-handle">\
         <span class="kqr-leftopts"><input type="checkbox" id="kqr-min" class="kqr-min kqr-checkbox" title="Minimize QR" /></span>\
         <span class="kqr-title">&nbsp;' + qr.title + '&nbsp;</span><span id="kqr-eject"></span><span id="kqr-loadthread" style="display:none"></span>\
-        <span class="kqr-rightopts">[ Spoiler: <input type="checkbox" id="kqr-spoil" class="kqr-spoil kqr-checkbox" title="Image Spoiler" /> ] <a id="kqr-close" class="kqr-close kqr-link" title="Close QR" >&#10006;</a></span>\
+        <span class="kqr-rightopts">[S:<input type="checkbox" id="kqr-spoil" class="kqr-spoil kqr-checkbox" title="Image Spoiler" /> / \
+        F:<input type="checkbox" id="kqr-flag" class="kqr-flag kqr-checkbox" title="Hide Country Flag" />] <a id="kqr-close" class="kqr-close kqr-link" title="Close QR" >&#10006;</a></span>\
       </div>\
       <div id="kqr-body" class="kqr-body">\
         <div>\
           <input type="text" id="kqr-name" class="kqr-name kqr-personafield" placeholder="Name" />\
           <input type="text" id="kqr-email" class="kqr-email kqr-personafield" placeholder="Email" />\
           <input type="text" id="kqr-subject" class="kqr-subject kqr-personafield" placeholder="Subject" />\
+<span style="float:right;" title="Anonymous Posting">[A:<input type="checkbox" id="kqr-read" class="kqr-read kqr-checkbox" title="Anonymous Posting" />]&nbsp;</span>\
         </div>\
         <div>\
           <textarea id="kqr-comment" class="kqr-comment" placeholder="Comment"></textarea>\
@@ -801,6 +813,32 @@ function chanK(){
         $('#kqr-embedinput').value = '';
       }
     }, false);
+    
+    if($.getVal('qr-read') == 'true'){
+      $('#kqr-read').checked = true;
+      $('#kqr-name').disabled = true;
+      $('#kqr-subject').disabled = true;
+      $('#kqr-email').disabled = true;
+    }else{
+      $.setVal('qr-read', 'false');
+    }
+    
+    $('#kqr-read').addEventListener('change', function(){
+      if($.getVal('qr-read') == 'false'){
+        $('#kqr-read').checked = true;
+        $.setVal('qr-read', 'true');
+        $('#kqr-name').disabled = true;
+        $('#kqr-subject').disabled = true;
+        $('#kqr-email').disabled = true;
+      }else{
+        $.setVal('qr-read', 'false');
+        $('#kqr-read').checked = false;
+        $('#kqr-name').disabled = false;
+        $('#kqr-subject').disabled = false;
+        $('#kqr-email').disabled = false;
+      }
+    }, false);
+    
 
     qr.min = function(){
       $('#kqr-body').style.display = 'none';
@@ -899,7 +937,7 @@ function chanK(){
 
     $('#kqr-fileclear').addEventListener('click', qr.clearFile, false);
 
-    qr.drag = function(){
+    qr.drag = function(dragTarget){
 
       function dragDown(e){
         e = (e ? e : event);
@@ -933,9 +971,42 @@ function chanK(){
         }
       }
 
-      $('#kqr-handle').addEventListener('mousedown', dragDown, false);
+      dragTarget.addEventListener('mousedown', dragDown, false);
     }
-    qr.drag(); 
+    qr.drag($('#kqr-handle')); 
+    
+    var status;
+    
+    function getNotPerm(){
+      if (Notification && Notification.permission !== "granted"){
+        Notification.requestPermission(function(status){
+          if (Notification.permission !== status) {
+            Notification.permission = status;
+          }
+        });
+      }
+    }
+
+    qr.notify = function(n){
+      if (Notification.permission === "granted"){
+        var n = new Notification(n);
+      }
+    }
+    getNotPerm();
+    
+    qr.buildCounts = function(){
+      var $countCon = {};
+      $countCon['id'] = 'kqr-countCon';
+      $countCon['style'] = 'position:fixed;bottom:2px;left:5px;';
+      $countCon = $.elm('div', $countCon, db);
+    }
+    
+    qr.updateCounts = function(){
+     var $countCon = $('#kqr-countCon');
+     var $postCount = $$('.post').length;
+     var $fileCount = $$('.file').length;
+      $countCon.innerHTML = '<span title="Posts in this thread" style="cursor:pointer;">' + $postCount + '</span>/<span title="Files in this thread" style="cursor:pointer;">' + $fileCount + '</span>';0
+    }
 
     qr.quote = function(n){
       qr.main.style.display = "";
@@ -950,7 +1021,26 @@ function chanK(){
     }
 
     $.css('#quick-reply{display:none !important;}');
-
+    
+    qr.hideStaticForm = function(){
+      $('[name="post"]').style.display = "none";
+      var $expandForm = {};
+      $expandForm['id'] = 'expandForm';
+      $expandForm['type'] = 'button';
+      $expandForm = $.elm('button', $expandForm, $('.board-settings'));
+      $expandForm.innerHTML = 'Toggle Post Form';
+      $expandForm.addEventListener('click',function(){
+        if($('[name="post"]').style.display == "none"){
+          $('[name="post"]').style.display = "";
+        }else{
+          $('[name="post"]').style.display = "none";
+        }
+        
+      }, false);
+      
+    }
+    qr.hideStaticForm();
+    
     qr.parseQuotes = function(){
       $.each($$('a'), function(c, i){
         if(c.className == 'post_no'){
@@ -967,23 +1057,21 @@ function chanK(){
               }, false);
               $.att(c, 'k8', 'passed');
             }
-            var $thisPoster = $('.name', c.parentNode.parentNode).innerHTML; 
-            if($thisPoster == 'Theseius' && $.att(c.parentNode.parentNode, 'shutup') != 'rekt'){
-              $.att(c.parentNode.parentNode, 'shutup', 'rekt');
-              var shutup = {};
-              shutup['class'] = 'shitposter';
-              shutup['style'] = 'background:red;color:yellow;opacity:0.4;text-align:center;font-size:30px;padding:5px;'
-              shutup = $.elm('span', shutup, c.parentNode.parentNode);
-              shutup.innerHTML = 'CAUTION: LUKA';
-            }
           }
         }else if($.att(c, 'You') != 'marked' && c.title != "Reply to this post"){
+          if(c.href.indexOf('?/') > 0){
+            var $cPath = c.href.split('?')[1];
+            c.href = 'https://8chan.co' + $cPath;
+          }
           if(setting.recent.indexOf(c.href.split('.html#')[1]) > 0){
             $.att(c, 'You', 'marked');
             var y = {};
             y['class'] = 'kqr-you';
             y = $.after($.elm('span', y), c);
             y.innerHTML = '&nbsp;(You) ';
+            if(c.className.indexOf('mentioned-') < 1){
+              qr.notify('Mentioned in /' + k.board + '/' + k.thread);
+            }
           }
         }else if(c.title == "Reply to this post"){
           if($.att(c, 'k8') != 'passed'){
@@ -1000,30 +1088,22 @@ function chanK(){
               $.att(c, 'k8', 'passed');
             }
           }
-          var $thisPoster = $('.name', c.parentNode.parentNode).innerHTML; 
-          if($thisPoster == 'Theseius' && $.att(c.parentNode.parentNode.parentNode, 'shutup') != 'rekt'){
-            $.att(c.parentNode.parentNode.parentNode, 'shutup', 'rekt');
-            var shutup = {};
-            shutup['class'] = 'shitposter';
-            shutup['style'] = 'background:red;color:yellow;opacity:0.4;text-align:center;font-size:30px;padding:5px;'
-            shutup = $.elm('span', shutup, c.parentNode.parentNode.parentNode);
-            shutup.innerHTML = 'CAUTION: LUKA';
-          }
         }
       });
     }
 
     $.time(3000, qr.parseQuotes, false);
-    
         
     k.chanZreHovers = function(){
       $thumbs = $$('.fileThumb');
       
       function iHover(){
-          cs = window.getComputedStyle($.att($('#imageHov'), 'src', this.href), null);
-          this.addEventListener('mouseleave', kHover, false);
-          this.addEventListener('click', kHover, false);
-          return $cs = parseFloat(cs.height.split('px')[0]);
+          if(this.href.indexOf('.webm') < 1){
+            cs = window.getComputedStyle($.att($('#imageHov'), 'src', this.href), null);
+            this.addEventListener('mouseleave', kHover, false);
+            this.addEventListener('click', kHover, false);
+            return $cs = parseFloat(cs.height.split('px')[0]);
+          }
       }
       function kHover(){
         this.removeEventListener('mouseleave', kHover, false);
@@ -1102,7 +1182,108 @@ function chanK(){
     }
     
     k.chanZpagetitle = function(){
-      d.title = $('h1', $('header')).innerHTML;     
+      
+      d.title = $('h1', $('header')).innerHTML; 
+      
+      function titleOnUpdate(){
+        var dhtml = d.documentElement;
+        var totalheight = Math.max(db.scrollHeight, db.offsetHeight, dhtml.clientHeight, dhtml.scrollHeight, dhtml.offsetHeight)-750;
+        if(window.scrollY < (totalheight-200)){
+           d.title = '(+) ' + $('h1', $('header')).innerHTML;
+        }
+      }
+      
+      function titleOnScroll(){
+        var dhtml = d.documentElement;
+        var totalheight = Math.max(db.scrollHeight, db.offsetHeight, dhtml.clientHeight, dhtml.scrollHeight, dhtml.offsetHeight)-750;
+        if(window.scrollY > (totalheight-200)){
+           d.title = $('h1', $('header')).innerHTML;
+        }
+      }
+      
+      d.addEventListener('8chan-Z.NewPosts', function(){ 
+        titleOnUpdate();
+      }, false);
+      
+      d.addEventListener('scroll', function(){ 
+        titleOnScroll();
+      }, false);
+      
+    }
+    
+    k.chanZstyle = function(){
+      k.chanZupdateStyle = function(){
+        $.destroy(qr.css.elm);
+        if($('#styleSelector').value.indexOf('yotsuba_b') > 2){
+          qr.css.elm = $.css(qr.css.yotsubab);
+        }else if($('#styleSelector').value.indexOf('tomorrow') > 2){
+          qr.css.elm = $.css(qr.css.tomorrow);
+        }else if($('#styleSelector').value.indexOf('photon') > 2){
+          qr.css.elm = $.css(qr.css.photon);
+        }else if($('#styleSelector').value.indexOf('dark') > 2){
+          qr.css.elm = $.css(qr.css.dark);
+        }else{
+          qr.css.elm = $.css(qr.css.yotsubaa);
+        }
+      }
+      k.chanZupdateStyle();
+      $('#styleSelector').addEventListener('change', function(){        
+        k.chanZupdateStyle();
+        $.setVal('pageZ.style', $('#styleSelector').value);                            
+      }, false);
+      if($.getVal('pageZ.style', 'x') == 'x'){
+        $.setVal('pageZ.style', $('#styleSelector').value)
+      }
+      $('#styleSelector').value = $.getVal('pageZ.style');
+      $.event('change', {}, $('#styleSelector'));
+      $.event('click', {}, $('#styleSelector'));
+    }
+    
+    k.chanZpassword = function(){
+      if($.getVal('delPass', 'false') == 'false'){
+        $.setVal('delPass', Math.floor((Math.random() * 1000) + 1)*Math.floor((Math.random() * 1000) + 1));
+      }
+      var $passFields = $$('[name="password"]')
+      $.each($passFields, function(g, j){
+        g.value = $.getVal('delPass');
+      });
+    }
+    
+    k.chanZcheckboxes = function(){
+      $.each($$('.post'), function(g, j){
+        var $thisBox = $('input', g);
+        if($.att($thisBox, 'name').indexOf('_') < 1){
+          $.att($thisBox, 'name', 'delete_' + $.att($thisBox, 'name'));
+        }
+      });      
+    }
+    
+    k.chanZclickthumb = function(){
+      $.each($$('.reply'), function(g, j){
+        if($('.fileThumb', g) && $.att($('.fileThumb', g), 'expands') != 'true'){
+          $.att($('.fileThumb', g), 'expands', 'true');
+          var $xThumb = $('.fileThumb', g);
+          if($xThumb.href.split('/src/')[1].indexOf('.webm') < 1){
+            var $xImg = $('img', $xThumb);
+            var $xPath = {};
+            $xPath['a'] = $xThumb.href.split('/src/')[0];
+            $xPath['b'] = $xThumb.href.split('/src/')[1];
+            $xThumb.addEventListener('click', function(e){
+              e.preventDefault();
+              e.stopPropagation();
+              if($xImg.style.maxWidth == '125px' || $xImg.style.maxHeight == '125px'){
+                $xImg.style.maxWidth = '';
+                $xImg.style.maxHeight = '';
+                $xImg.src = $xPath['a'] + '/src/' + $xPath['b'];
+              }else{
+                $xImg.style.maxWidth = '125px';
+                $xImg.style.maxHeight = '125px';
+                $xImg.src = $xPath['a'] + '/thumb/' + $xPath['b'];
+              }
+            }, false);
+          }          
+        }       
+      });     
     }
     
     k.chanZinit = function(){
@@ -1111,7 +1292,12 @@ function chanK(){
       k.chanZyoutube();
       k.chanZtitle();
       k.chanZpagetitle();
+      k.chanZpassword();
+      qr.buildCounts();
       k.chanZcss();
+      k.chanZcheckboxes();
+      k.chanZclickthumb();
+      $.time(1000, k.chanZstyle, false);
     }
     
     d.addEventListener('threadUpdate', qr.parseQuotes, false);
@@ -1123,6 +1309,9 @@ function chanK(){
       }
       qr.parseQuotes();
       k.chanZyoutube();
+      qr.updateCounts();
+      k.chanZcheckboxes();
+      k.chanZclickthumb();
     }, false);
     d.addEventListener('8chan-Z.Ready', function(){ 
       if(page.chanZ == false){        
@@ -1141,15 +1330,27 @@ function chanK(){
       formData.append("hash", $('input[name="hash"]').value);
       formData.append("username", '');
       formData.append("board", k.board);
-      if(k.thread != 'index' && k.thread != 'catalog' && k.makeOP != true){ formData.append("thread", k.thread); }
-      formData.append("name", $('#kqr-name').value);
-      formData.append("email", $('#kqr-email').value);
-      formData.append("subject", $('#kqr-subject').value);
+      if(k.thread != 'index' && k.thread != 'catalog' && k.makeOP != true){ 
+        formData.append("thread", k.thread); 
+      }
+      if($('#kqr-read').checked != true){
+        formData.append("name", $('#kqr-name').value);
+        formData.append("email", $('#kqr-email').value);
+        formData.append("subject", $('#kqr-subject').value);
+      }
+      if($('#kqr-flag').checked == true){
+        formData.append("no_country", "on");
+      }
       formData.append("body", $('#kqr-comment').value);
-      formData.append("file", $("#kqr-fileinput").files[0]);
-      if(qr.upEmbed == true){ formData.append("embed", $('#kqr-embedinput').value); }
+      if(qr.upEmbed == true){ 
+        formData.append("embed", $('#kqr-embedinput').value); 
+      }else{
+        formData.append("file", $("#kqr-fileinput").files[0]);
+      }
       formData.append("password", $('[name="password"]').value);       
-      if($('#kqr-spoil').checked == true){ formData.append("spoiler", "on"); }
+      if($('#kqr-spoil').checked == true){ 
+        formData.append("spoiler", "on"); 
+      }
 
       var xhr = new XMLHttpRequest();
 
@@ -1203,8 +1404,9 @@ function chanK(){
 
       function updateProgress(e){
         if (e.lengthComputable){
-          var percentComplete = parseInt((e.loaded / e.total)*100);
-          $.htm($('#kqr-postbutton'), percentComplete+'%');
+          var percentComplete = parseInt((e.loaded / e.total)*100).toFixed(0);
+          if(percentComplete > 100) percentComplete = 100;
+          $.htm($('#kqr-postbutton'), percentComplete + '%');
         } else {
           $.htm($('#kqr-postbutton'), 'unknown %');
         }
